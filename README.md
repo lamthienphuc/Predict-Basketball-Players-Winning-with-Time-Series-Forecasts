@@ -8,7 +8,7 @@ We use Python to scrape data from Basketball Reference, a website that provides 
 - Datasets: MVP Data, Player Statistics, Team Statistics
 
 ### Scraping MVP Data
-The following block of code scrapes MVP data from the past 30 years (1991 to 2022), then creates an HTML file for each year. After we are finished webscraping, we will extract the relevant data from each HTML file, and convert those files into individual CSV files.
+The following block of code scrapes MVP data from the past 30 years (1991 to 2021), then creates an HTML file for each year. After we are finished webscraping, we will extract the relevant data from each HTML file, and convert those files into individual CSV files.
 
 ```python
 def Scrape_MVP():   
