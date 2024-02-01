@@ -12,7 +12,7 @@ The following block of code scrapes MVP data from the past 30 years (1991 to 202
 
 ```python
 def Scrape_MVP():   
-    years = range(1991, 2022)
+    years = range(1991, 2021)
     url_start = "https://www.basketball-reference.com/awards/awards_{}.html"
     for year in years:
         url = url_start.format(year)
@@ -34,7 +34,7 @@ After collecting the MVP data from the past 30 years, we iterate every year in o
 ```python
 def Parse_MVP(years):
     dfs = []
-    years = range(1991, 2022)
+    years = range(1991, 2021)
     for year in years:
         with open(f"mvp/{year}.html") as f:
             page = f.read()
