@@ -1,4 +1,4 @@
-_Repository Overview_
+**_Repository Overview_**
 The first section of this application involves scraping NBA statistics from Basketball Reference in order to train a machine learning model we can use to generate time-series predictions for each player, in regards to their chance of winning the MVP for a certain year. 
 
 ## Data Collection
