@@ -1,5 +1,6 @@
 # Repository Overview
-The first section of this application involves scraping NBA statistics from Basketball Reference in order to train a machine learning model we can use to generate time-series predictions for each player, in regards to their chance of winning the MVP for a certain year. 
+The first section of this application involves scraping NBA statistics from Basketball Reference in order to train a machine learning model we can use to generate time-series predictions for each player, in regards to their chance of winning the MVP for a certain year.
+
 ![67478be0-7dca-11eb-bdfd-2c7e2aa47228](https://github.com/lamthienphuc/Predict-Basketball-Players-Winning-with-Time-Series-Forecasts/assets/130354234/9304ce50-5fab-4fa8-b5de-4ea42bf79233)
       
 ## Data Collection
