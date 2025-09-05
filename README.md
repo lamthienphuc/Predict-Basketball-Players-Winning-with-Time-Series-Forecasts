@@ -4,13 +4,13 @@ The first section of this application involves scraping NBA statistics from Bask
 ![67478be0-7dca-11eb-bdfd-2c7e2aa47228](https://github.com/lamthienphuc/Predict-Basketball-Players-Winning-with-Time-Series-Forecasts/assets/130354234/9304ce50-5fab-4fa8-b5de-4ea42bf79233)
       
 ## Data Collection
-We use Python to scrape data from Basketball Reference, a website that provides basketball statistics and player data from the past 30 years in the NBA. 
+I use Python to scrape data from Basketball Reference, a website that provides basketball statistics and player data from the past 30 years in the NBA. 
 
 - Source: https://www.basketball-reference.com/
 - Datasets: MVP Data, Player Statistics, Team Statistics
 
 ### Scraping MVP Data
-The following block of code scrapes MVP data from the past 30 years (1991 to 2021), then creates an HTML file for each year. After we are finished webscraping, we will extract the relevant data from each HTML file, and convert those files into individual CSV files.
+The following block of code scrapes MVP data from the past 30 years (1991 to 2021), then creates an HTML file for each year. After finished webscraping, I will extract the relevant data from each HTML file, and convert those files into individual CSV files.
 
 ```python
 def Scrape_MVP():   
@@ -24,10 +24,10 @@ def Scrape_MVP():
 ```
 
 ### Scraping NBA Player Statistics
-The webpages that contain NBA player statistics contain dynamic content, making it a challenge to scrape all of the data we need in order to train our machine learning model. However, we address this problem using a Selenium chrome driver in order to loa  block of code scrapes MVP data from the past 30 years (1991 to 2022), then creates an HTML file for each year. After we are finished webscraping, we will extract the relevant data from each HTML file, and convert those files into individual CSV files.
+The webpages that contain NBA player statistics contain dynamic content, making it a challenge to scrape all of the data need in order to train my machine learning model. However, i address this problem using a Selenium chrome driver in order to loa  block of code scrapes MVP data from the past 30 years (1991 to 2022), then creates an HTML file for each year. After finished webscraping, i will extract the relevant data from each HTML file, and convert those files into individual CSV files.
 
 ### Preparing Datasets - CSV Files
-After collecting the MVP data from the past 30 years, we iterate every year in our 'mvp' folder and apply the following operations to each HTML file:
+After collecting the MVP data from the past 30 years, i iterate every year in our 'mvp' folder and apply the following operations to each HTML file:
 - Create an empty array that will be used to store multiple dataframes
 - Extract relevant information from each HTML file, specifying the 'id' attribute of the table we need.
 - Use Pandas to read the HTML table using Pandas as a dataframe
